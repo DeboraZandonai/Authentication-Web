@@ -1,0 +1,47 @@
+.container-register {
+  margin: 60px auto auto auto;
+}
+
+.container-register h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #586069;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+.register-group {
+  background-color: #fff;
+  border: 1px solid #e1e4e8;
+  width: 240px;
+  height: 30px;
+  border-radius: 7px;
+  margin: 20px auto auto auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  font-size: 11.5px;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-button {
+  color: #fdfdfd;
+  font-size: 14px;
+  font-weight: 500px;
+  padding: 0.5rem 2rem;
+  width: 150px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  background-color: #34884c;
+  cursor: pointer;
+}

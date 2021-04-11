@@ -1,0 +1,115 @@
+#main {
+  background-color: #040d21;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.container-header h1 {
+  margin-left: 100px;
+}
+
+.home-hero-glow {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  transform: translate(-50%, -50%);
+}
+
+.home-here-glob {
+  position: relative;
+}
+
+.button-sign-in {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #040d21;
+  color: #fff;
+  margin: auto 10px;
+}
+
+.button-sign-in a:hover {
+  color: #6a737d;
+}
+
+.button-sign-in a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-sign-up {
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  height: 31px;
+  background-color: #040d21;
+  color: #fff;
+  margin: auto 100px auto 0;
+}
+
+.button-sign-up a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+}
+
+.button-sign-up a:hover {
+  color: #6a737d;
+}
+
+.button-sign-up:hover {
+  border: 1px solid #6a737d;
+}
+
+.svg-footer {
+  bottom: -1px;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-text-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-text-header h1 {
+  width: 400px;
+  font-size: 40px;
+  margin: 100px 100px 0px 100px;
+}
+
+.container-text-header h2 {
+  font-size: 22px;
+  margin: 40px 50px 0px 100px;
+}
+
+.img-moon {
+  margin: 50px;
+  width: 35%;
+}
+
+@media only screen and (max-width: 950px) {
+  .container-text {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

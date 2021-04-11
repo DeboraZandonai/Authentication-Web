@@ -1,0 +1,35 @@
+.container-header-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #24292e;
+}
+
+.container-header-home h1 {
+  margin-left: 100px;
+}
+
+.container-header-user {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-header-user h2 {
+  font-size: 18px;
+}
+
+.container-header-user button {
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  height: 31px;
+  background-color: #24292e;
+  color: #fff;
+  margin: auto 100px auto 30px;
+}
+
+.container-header-user button:hover {
+  border: 1px solid #959da5;
+  color: #959da5;
+}
